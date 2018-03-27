@@ -63,7 +63,7 @@ def main():
         print("\n")
         menu=str(input("Return to menu? y/n "))
         menu=menu.upper()
-        if(str(menu)=="y"):
+        if(str(menu)=="Y"):
             print ("\n" * 31)
             main()
         if(str(menu)=="N"):
