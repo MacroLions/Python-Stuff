@@ -2,7 +2,7 @@ materias=int(input("Ingrese cuantas materias ha cursado: "))
 uv = 0
 unidadesMerito = 0
 print("")
-for i in range(materias-1):
+for i in range(materias):
     print("Materia "+str(i+1)+": ")
     uvMateria=int(input("Ingrese cuantas UV vale la materia: "))
     notaMateria=float(input("Ingrese cual fue su nota en esa materia: "))
@@ -12,4 +12,4 @@ for i in range(materias-1):
 
 CUM=float(unidadesMerito/uv)
 
-print("Su CUM es: "+str(CUM))
+input("Su CUM es: "+str(CUM))
